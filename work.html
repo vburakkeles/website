@@ -1,0 +1,1857 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>V. Burak Keles · Selected Works</title>
+<meta name="description" content="Selected projects by me — UI/UX case studies across product design, design systems and prototyping." />
+<link rel="icon" type="image/png" sizes="32x32" href="assets/website-icons/favicon-32.png" />
+<link rel="icon" type="image/png" href="assets/website-icons/favicon.png" />
+<link rel="apple-touch-icon" href="assets/website-icons/favicon.png" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+<style>
+  :root{
+    --navy-900:#070610;
+    --navy-850:#0B0917;
+    --navy-800:#100D1E;
+    --navy-700:#171327;
+    --navy-600:#241D3D;
+    --blue:#8B5CF6;
+    --blue-400:#A78BFA;
+    --amber:#FFC83D;
+    --amber-deep:#F5A623;
+    --ink:#F3F0FB;
+    --muted:#9D97B8;
+    --muted-2:#736C90;
+    --line:rgba(255,255,255,.07);
+    --line-2:rgba(255,255,255,.13);
+    --radius:22px;
+    --radius-sm:14px;
+    --maxw:1180px;
+    --ease:cubic-bezier(.2,.7,.2,1);
+    --me:url('data:image/webp;base64,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');
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth;overflow-x:hidden}
+  body{
+    background:var(--navy-900);
+    color:var(--ink);
+    font-family:"Poppins",system-ui,sans-serif;
+    line-height:1.6;
+    overflow-x:hidden;
+    -webkit-font-smoothing:antialiased;
+  }
+  ::selection{background:var(--amber);color:var(--navy-900)}
+  a{color:inherit;text-decoration:none}
+  .mono{font-family:"JetBrains Mono",monospace}
+  .eyebrow{
+    font-family:"JetBrains Mono",monospace;
+    font-size:.72rem;letter-spacing:.22em;text-transform:uppercase;
+    color:var(--amber);font-weight:500;
+    display:inline-flex;align-items:center;gap:.55rem;
+  }
+  .eyebrow::before{content:"";width:26px;height:1.5px;background:var(--amber);display:inline-block;opacity:.7}
+  .wrap{max-width:var(--maxw);margin:0 auto;padding-left:clamp(18px,4vw,40px);padding-right:clamp(18px,4vw,40px)}
+  section{position:relative}
+
+  /* ---------- background dots / atmosphere ---------- */
+  .bg-dots{
+    position:fixed;inset:0;z-index:0;pointer-events:none;
+    background-image:radial-gradient(rgba(255,255,255,.05) 1.4px,transparent 1.4px);
+    background-size:34px 34px;
+    mask-image:radial-gradient(circle at 50% 0%,#000 0%,transparent 78%);
+  }
+  .atmos{position:fixed;inset:0;overflow:hidden;pointer-events:none;z-index:0}
+  .glow{position:absolute;border-radius:50%;filter:blur(120px);opacity:.4;pointer-events:none}
+  .glow.a{width:520px;height:520px;background:var(--blue);top:-160px;right:-120px}
+  .glow.b{width:420px;height:420px;background:var(--amber);bottom:10%;left:-180px;opacity:.16}
+
+  /* ---------- nav ---------- */
+  header{
+    position:fixed;top:0;left:0;right:0;z-index:50;
+    transition:background .4s var(--ease),border-color .4s,padding .4s;
+    border-bottom:1px solid transparent;padding:18px 0;
+  }
+  header.scrolled{
+    background:rgba(10,20,40,.78);backdrop-filter:blur(14px);
+    border-bottom:1px solid var(--line);padding:12px 0;
+  }
+  .nav{display:flex;align-items:center;justify-content:space-between;gap:24px}
+  .brand{display:flex;align-items:center;gap:11px;font-weight:700;letter-spacing:-.01em}
+  .brand .logo{
+    width:34px;height:34px;border-radius:50%;overflow:hidden;
+    display:block;position:relative;flex:none;
+  }
+  /* avatar logo */
+  .brand .logo img{width:100%;height:100%;object-fit:cover;display:block}
+  .nav-links{display:flex;align-items:center;gap:6px}
+  .nav-links a{
+    font-size:.92rem;color:var(--muted);padding:8px 14px;border-radius:10px;
+    transition:color .25s,background .25s;font-weight:500;
+  }
+  .nav-links a:hover{color:var(--ink);background:rgba(255,255,255,.05)}
+  .btn{
+    font-family:inherit;font-weight:600;font-size:.9rem;cursor:pointer;border:none;
+    padding:11px 20px;border-radius:12px;display:inline-flex;align-items:center;gap:8px;
+    transition:transform .25s var(--ease),box-shadow .3s,background .3s;
+  }
+  .btn-primary{background:var(--blue);color:#fff;box-shadow:0 8px 24px rgba(139,92,246,.4)}
+  .btn-primary:hover{transform:translateY(-2px);box-shadow:0 14px 32px rgba(139,92,246,.55)}
+  .btn-ghost{background:rgba(255,255,255,.06);color:var(--ink);border:1px solid var(--line-2)}
+  .btn-ghost:hover{transform:translateY(-2px);background:rgba(255,255,255,.1)}
+  .menu-toggle{display:none;background:none;border:none;color:var(--ink);cursor:pointer;padding:6px}
+
+  /* ---------- hero ---------- */
+  .hero{padding-top:170px;padding-bottom:90px;position:relative;z-index:2}
+  .hero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:50px;align-items:center}
+  .hero h1{
+    font-size:clamp(2.6rem,6vw,4.6rem);line-height:1.02;font-weight:800;
+    letter-spacing:-.03em;margin:22px 0 0;
+  }
+  .hero h1 .wave{display:inline-block;transform-origin:70% 70%;animation:wave 2.6s ease-in-out infinite}
+  @keyframes wave{0%,60%,100%{transform:rotate(0)}10%{transform:rotate(16deg)}20%{transform:rotate(-8deg)}30%{transform:rotate(14deg)}40%{transform:rotate(-4deg)}50%{transform:rotate(10deg)}}
+  .hero h1 .name{color:var(--amber);position:relative;white-space:nowrap}
+  .hero p.lead{font-size:1.08rem;color:var(--muted);max-width:30em;margin:22px 0 0}
+  .hero p.lead b{color:var(--ink);font-weight:600}
+  .tags{display:flex;flex-wrap:wrap;gap:10px;margin-top:26px}
+  .pill{
+    font-size:.8rem;font-weight:500;padding:7px 14px;border-radius:999px;
+    background:rgba(255,255,255,.05);border:1px solid var(--line-2);color:var(--ink);
+    display:inline-flex;align-items:center;gap:7px;
+  }
+  .pill .dot{width:6px;height:6px;border-radius:50%;background:var(--amber)}
+  .hero-cta{display:flex;gap:14px;margin-top:34px;flex-wrap:wrap}
+
+  /* pacman hero panel */
+  .hero-visual{
+    position:relative;border-radius:var(--radius);padding:34px;
+    background:linear-gradient(160deg,var(--navy-700),var(--navy-850));
+    border:1px solid var(--line);overflow:hidden;min-height:340px;
+    display:flex;flex-direction:column;justify-content:space-between;
+    box-shadow:0 30px 70px rgba(0,0,0,.35);
+  }
+  .hero-visual .grid-lines{position:absolute;inset:0;background-image:linear-gradient(var(--line) 1px,transparent 1px),linear-gradient(90deg,var(--line) 1px,transparent 1px);background-size:40px 40px;opacity:.5}
+  .maze{position:relative;display:flex;align-items:center;gap:14px;height:60px;z-index:2}
+  /* ---------- hero portrait (drawn-in) ---------- */
+  .portrait{position:relative;align-self:center;width:230px;max-width:82%;height:232px;margin:2px 0 8px;z-index:2;
+    -webkit-mask:radial-gradient(78% 84% at 50% 42%,#000 56%,transparent 100%);mask:radial-gradient(78% 84% at 50% 42%,#000 56%,transparent 100%);
+    animation:floaty 5.5s ease-in-out 3.4s infinite}
+  .portrait .layer{position:absolute;inset:0;background:var(--me) center/contain no-repeat}
+  .portrait .ghost{filter:grayscale(1) brightness(.5) contrast(1.15);opacity:.26}
+  .portrait .real{clip-path:inset(0 0 0 0);animation:drawin 3s var(--ease) .3s forwards}
+  .portrait .pen{position:absolute;left:7%;right:7%;top:0;height:2px;z-index:3;border-radius:2px;
+    background:linear-gradient(90deg,transparent,var(--amber) 28%,var(--amber) 72%,transparent);
+    box-shadow:0 0 14px 2px rgba(255,200,61,.65);opacity:0;animation:penmove 3s var(--ease) .3s forwards}
+  .portrait .scan{position:absolute;inset:0;z-index:3;pointer-events:none;
+    background:linear-gradient(115deg,transparent 42%,rgba(255,255,255,.13) 50%,transparent 58%);
+    transform:translateX(-130%);animation:scanpass 6s ease-in-out 4.2s infinite}
+  @keyframes drawin{0%{clip-path:inset(0 0 100% 0)}100%{clip-path:inset(0 0 0% 0)}}
+  @keyframes penmove{0%{top:0;opacity:0}6%{opacity:1}94%{opacity:1}100%{top:100%;opacity:0}}
+  @keyframes floaty{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
+  @keyframes scanpass{0%,72%{transform:translateX(-130%)}86%{transform:translateX(130%)}100%{transform:translateX(130%)}}
+  .pacman{
+    width:54px;height:54px;flex:none;position:relative;filter:drop-shadow(0 0 14px rgba(255,200,61,.5));
+  }
+  .pacman::before,.pacman::after{
+    content:"";position:absolute;left:0;width:54px;height:27px;background:var(--amber);
+  }
+  .pacman::before{top:0;border-radius:54px 54px 4px 4px;transform-origin:50% 100%;animation:chompT .45s ease-in-out infinite}
+  .pacman::after{bottom:0;border-radius:4px 4px 54px 54px;transform-origin:50% 0;animation:chompB .45s ease-in-out infinite}
+  @keyframes chompT{0%,100%{transform:rotate(-34deg)}50%{transform:rotate(0)}}
+  @keyframes chompB{0%,100%{transform:rotate(34deg)}50%{transform:rotate(0)}}
+  .dots{display:flex;gap:16px;align-items:center}
+  .dots i{width:11px;height:11px;border-radius:50%;background:var(--blue-400);box-shadow:0 0 10px rgba(167,139,250,.6);animation:eat 3.6s linear infinite}
+  .dots i:nth-child(1){animation-delay:0s}
+  .dots i:nth-child(2){animation-delay:.45s}
+  .dots i:nth-child(3){animation-delay:.9s}
+  .dots i:nth-child(4){animation-delay:1.35s}
+  .dots i:nth-child(5){animation-delay:1.8s}
+  .dots i:nth-child(6){animation-delay:2.25s}
+  @keyframes eat{0%,8%{transform:scale(1);opacity:1}12%,100%{transform:scale(0);opacity:0}}
+  .hv-meta{position:relative;z-index:2}
+  .hv-meta .row{display:flex;justify-content:space-between;padding:13px 0;border-top:1px solid var(--line);font-size:.84rem}
+  .hv-meta .row span:first-child{color:var(--muted-2);font-family:"JetBrains Mono",monospace}
+  .hv-meta .row span:last-child{font-weight:600}
+  .hv-tag{position:absolute;top:22px;right:22px;z-index:3;font-size:.7rem;letter-spacing:.18em;color:var(--muted-2);font-family:"JetBrains Mono",monospace;text-transform:uppercase}
+
+  /* ---------- stats strip ---------- */
+  .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);
+    border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;margin:30px 0 0;z-index:2;position:relative}
+  .stat{background:var(--navy-850);padding:30px 26px;transition:background .35s}
+  .stat:hover{background:var(--navy-700)}
+  .stat .num{font-size:2.4rem;font-weight:800;letter-spacing:-.02em;color:var(--amber);line-height:1}
+  .stat .lab{font-size:.84rem;color:var(--muted);margin-top:8px}
+
+  /* ---------- section heading ---------- */
+  .sec{padding-top:100px;padding-bottom:100px}
+  .sec-head{max-width:620px;margin-bottom:46px}
+  .sec-head h2{font-size:clamp(2rem,4.4vw,3rem);font-weight:800;letter-spacing:-.025em;line-height:1.08;margin:16px 0 0}
+  .sec-head p{color:var(--muted);margin-top:14px;font-size:1.02rem}
+
+  /* ---------- work grid ---------- */
+  .work-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+  .work-all{display:flex;justify-content:center;margin-top:40px}
+  .card{
+    background:var(--navy-800);border:1px solid var(--line);border-radius:var(--radius);
+    overflow:hidden;cursor:pointer;position:relative;
+    transition:transform .4s var(--ease),border-color .4s,box-shadow .4s;
+  }
+  .card:hover{transform:translateY(-6px);border-color:var(--line-2);box-shadow:0 26px 50px rgba(0,0,0,.4)}
+  .card:focus-visible{outline:2px solid var(--amber);outline-offset:3px}
+  .ph{
+    aspect-ratio:16/10;position:relative;overflow:hidden;
+    background:
+      radial-gradient(120% 120% at 0% 0%,rgba(139,92,246,.32),transparent 55%),
+      radial-gradient(120% 120% at 100% 100%,rgba(255,200,61,.22),transparent 55%),
+      var(--navy-700);
+    display:grid;place-items:center;
+  }
+  .ph::after{content:"";position:absolute;inset:0;background-image:linear-gradient(var(--line) 1px,transparent 1px),linear-gradient(90deg,var(--line) 1px,transparent 1px);background-size:32px 32px;opacity:.6}
+  .ph .ph-ic{position:relative;z-index:2;display:flex;flex-direction:column;align-items:center;gap:10px;color:var(--muted);transition:transform .5s var(--ease)}
+  .ph img.cover{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1;transition:transform .5s var(--ease)}
+  .card:hover .ph img.cover{transform:scale(1.05)}
+  .ph:has(img)::after{display:none}
+  .card:hover .ph .ph-ic{transform:scale(1.08)}
+  .ph .ph-ic svg{width:38px;height:38px;opacity:.55}
+  .ph .ph-ic span{font-family:"JetBrains Mono",monospace;font-size:.66rem;letter-spacing:.18em;text-transform:uppercase}
+  .ph .idx{position:absolute;top:16px;left:18px;z-index:2;font-family:"JetBrains Mono",monospace;font-size:.8rem;color:var(--muted-2)}
+  .ph .arrow{position:absolute;top:14px;right:16px;z-index:2;width:38px;height:38px;border-radius:50%;
+    background:var(--amber);display:grid;place-items:center;color:var(--navy-900);
+    transform:translate(8px,-8px) scale(.6);opacity:0;transition:all .4s var(--ease)}
+  .card:hover .arrow{transform:none;opacity:1}
+  .card-body{padding:22px 24px 24px}
+  .card-body h3{font-size:1.25rem;font-weight:700;letter-spacing:-.01em}
+  .card-body .cat{font-size:.82rem;color:var(--amber);font-weight:500;margin-top:2px}
+  .card-tags{display:flex;flex-wrap:wrap;gap:7px;margin-top:14px}
+  .card-tags .t{font-size:.72rem;color:var(--muted);background:rgba(255,255,255,.04);border:1px solid var(--line);padding:4px 10px;border-radius:999px}
+
+  /* ---------- about ---------- */
+  .about-grid{display:grid;grid-template-columns:1fr 1fr;gap:54px;align-items:start}
+  .about-copy p{color:var(--muted);margin-bottom:16px}
+  .about-copy p b{color:var(--ink);font-weight:600}
+  .timeline{position:relative}
+  .timeline::before{content:"";position:absolute;left:25px;top:24px;bottom:24px;width:2px;background:linear-gradient(var(--blue),transparent);z-index:0}
+  .tl-item{position:relative;display:flex;align-items:center;gap:16px;padding-bottom:24px}
+  .tl-item:last-child{padding-bottom:0}
+  .tl-logo{position:relative;z-index:1;flex:none;width:52px;height:52px;border-radius:13px;display:grid;place-items:center;border:1px solid var(--line);background:var(--navy-800);color:var(--muted-2);opacity:.92;transition:color .3s var(--ease),opacity .3s,border-color .3s,transform .3s var(--ease)}
+  .tl-item:hover .tl-logo{color:var(--ink);opacity:1;border-color:var(--line-2);transform:translateY(-2px)}
+  .tl-logo svg{width:30px;height:30px}
+  .tl-text{display:flex;flex-direction:column}
+  .tl-item .yr{font-family:"JetBrains Mono",monospace;font-size:.74rem;color:var(--amber);letter-spacing:.08em}
+  .tl-item h4{font-size:1.02rem;font-weight:600;margin-top:2px}
+  .tl-item span{color:var(--muted-2);font-size:.88rem}
+
+  /* ---------- certificates ---------- */
+  .cert-band{background:var(--navy-850);border:1px solid var(--line);border-radius:var(--radius);padding:44px;position:relative;overflow:hidden}
+  .cert-grid{display:grid;grid-template-columns:1.1fr 1fr;gap:40px;align-items:center}
+  .cert-logos{display:flex;flex-wrap:wrap;gap:10px;margin-top:18px}
+  .cert-logos .lg{font-size:.78rem;color:var(--muted);padding:8px 14px;border:1px solid var(--line);border-radius:10px;background:rgba(255,255,255,.03)}
+  .cert-stat{text-align:center;padding:24px;border:1px dashed var(--line-2);border-radius:var(--radius-sm)}
+  .cert-stat .big{font-size:3.4rem;font-weight:800;color:var(--amber);line-height:1}
+  .cert-stat .sub{color:var(--muted);margin-top:6px;font-size:.92rem}
+  .cert-shots{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-top:24px}
+  .cert-shot{
+    aspect-ratio:4/3;border-radius:var(--radius-sm);overflow:hidden;position:relative;cursor:pointer;
+    background:
+      radial-gradient(120% 120% at 0% 0%,rgba(139,92,246,.26),transparent 55%),
+      radial-gradient(120% 120% at 100% 100%,rgba(255,200,61,.18),transparent 55%),
+      var(--navy-700);
+    border:1px solid var(--line);display:grid;place-items:center;
+    transition:transform .4s var(--ease),border-color .4s,box-shadow .4s;
+  }
+  .cert-shot:focus-visible{outline:2px solid var(--blue);outline-offset:3px}
+  .cert-shot .expand{position:absolute;top:10px;right:10px;z-index:3;width:30px;height:30px;border-radius:8px;
+    background:rgba(7,6,16,.6);display:grid;place-items:center;color:var(--ink);opacity:0;transform:scale(.7);
+    transition:all .35s var(--ease)}
+  .cert-shot:hover .expand{opacity:1;transform:none}
+
+  /* ---------- lightbox ---------- */
+  .lightbox{position:fixed;inset:0;z-index:140;display:none;align-items:center;justify-content:center;padding:32px 20px}
+  .lightbox.open{display:flex}
+  .lb-bg{position:fixed;inset:0;background:rgba(4,3,10,.85);backdrop-filter:blur(10px);animation:fade .3s}
+  .lb-card{position:relative;z-index:2;max-width:880px;width:100%;animation:rise .45s var(--ease)}
+  .lb-stage{
+    width:100%;border-radius:var(--radius);overflow:hidden;border:1px solid var(--line-2);
+    background:var(--navy-800);box-shadow:0 34px 90px rgba(0,0,0,.6);
+    display:grid;place-items:center;min-height:300px;
+  }
+  .lb-stage img{width:100%;height:auto;max-height:80vh;object-fit:contain;display:block}
+  .lb-ph{
+    width:100%;aspect-ratio:4/3;max-height:78vh;position:relative;display:grid;place-items:center;
+    background:
+      radial-gradient(120% 120% at 0% 0%,rgba(139,92,246,.3),transparent 55%),
+      radial-gradient(120% 120% at 100% 100%,rgba(255,200,61,.2),transparent 55%),var(--navy-700);
+  }
+  .lb-ph::after{content:"";position:absolute;inset:0;background-image:linear-gradient(var(--line) 1px,transparent 1px),linear-gradient(90deg,var(--line) 1px,transparent 1px);background-size:40px 40px;opacity:.5}
+  .lb-ph .ph-ic{position:relative;z-index:2;display:flex;flex-direction:column;align-items:center;gap:12px;color:var(--muted)}
+  .lb-ph .ph-ic svg{width:46px;height:46px;opacity:.5}
+  .lb-ph .ph-ic span{font-family:"JetBrains Mono",monospace;font-size:.74rem;letter-spacing:.2em;text-transform:uppercase}
+  .lb-close{position:absolute;top:-14px;right:-14px;z-index:5;width:42px;height:42px;border-radius:50%;border:none;
+    background:var(--navy-700);color:var(--ink);cursor:pointer;display:grid;place-items:center;
+    box-shadow:0 8px 22px rgba(0,0,0,.5);transition:background .25s,transform .25s}
+  .lb-close:hover{background:var(--blue);color:#fff;transform:rotate(90deg)}
+  @media(max-width:560px){.lb-close{top:8px;right:8px}}
+  .lb-bg{position:fixed;inset:0;background:rgba(4,3,10,.85);backdrop-filter:blur(10px);animation:fade .3s}
+  .lb-card{position:relative;z-index:2;max-width:880px;width:100%;animation:rise .45s var(--ease)}
+  .lb-stage{
+    width:100%;border-radius:var(--radius);overflow:hidden;border:1px solid var(--line-2);
+    background:var(--navy-800);box-shadow:0 34px 90px rgba(0,0,0,.6);
+    display:grid;place-items:center;min-height:300px;
+  }
+  .lb-stage img{width:100%;height:auto;max-height:80vh;object-fit:contain;display:block}
+  .lb-ph{
+    width:100%;aspect-ratio:4/3;max-height:78vh;position:relative;display:grid;place-items:center;
+    background:
+      radial-gradient(120% 120% at 0% 0%,rgba(139,92,246,.3),transparent 55%),
+      radial-gradient(120% 120% at 100% 100%,rgba(255,200,61,.2),transparent 55%),var(--navy-700);
+  }
+  .lb-ph::after{content:"";position:absolute;inset:0;background-image:linear-gradient(var(--line) 1px,transparent 1px),linear-gradient(90deg,var(--line) 1px,transparent 1px);background-size:40px 40px;opacity:.5}
+  .lb-ph .ph-ic{position:relative;z-index:2;display:flex;flex-direction:column;align-items:center;gap:12px;color:var(--muted)}
+  .lb-ph .ph-ic svg{width:46px;height:46px;opacity:.5}
+  .lb-ph .ph-ic span{font-family:"JetBrains Mono",monospace;font-size:.74rem;letter-spacing:.2em;text-transform:uppercase}
+  .lb-close{position:absolute;top:-14px;right:-14px;z-index:5;width:42px;height:42px;border-radius:50%;border:none;
+    background:var(--navy-700);color:var(--ink);cursor:pointer;display:grid;place-items:center;
+    box-shadow:0 8px 22px rgba(0,0,0,.5);transition:background .25s,transform .25s}
+  .lb-close:hover{background:var(--blue);color:#fff;transform:rotate(90deg)}
+  @media(max-width:560px){.lb-close{top:8px;right:8px}}
+  .cert-shot:hover{transform:translateY(-4px);border-color:var(--line-2);box-shadow:0 18px 38px rgba(0,0,0,.35)}
+  .cert-shot::after{content:"";position:absolute;inset:0;background-image:linear-gradient(var(--line) 1px,transparent 1px),linear-gradient(90deg,var(--line) 1px,transparent 1px);background-size:28px 28px;opacity:.55}
+  .cert-shot img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:2}
+  .cert-shot:has(img) .ph-ic{display:none}
+  .cert-shot:has(img)::after{display:none}
+  .cert-shot .ph-ic{position:relative;z-index:2;display:flex;flex-direction:column;align-items:center;gap:8px;color:var(--muted)}
+  .cert-shot .ph-ic svg{width:30px;height:30px;opacity:.5}
+  .cert-shot .ph-ic span{font-family:"JetBrains Mono",monospace;font-size:.62rem;letter-spacing:.16em;text-transform:uppercase}
+  .req{color:var(--amber);margin-left:2px}
+
+  /* ---------- tools strip ---------- */
+  .tools{padding-top:48px;padding-bottom:48px;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+  .tools .eyebrow{display:flex;justify-content:center;margin-bottom:30px}
+  .tools-row{display:flex;align-items:center;justify-content:space-between;gap:30px;flex-wrap:wrap}
+  .tool{display:flex;align-items:center;gap:11px;color:var(--muted-2);opacity:.75;transition:color .3s var(--ease),opacity .3s,transform .3s var(--ease)}
+  .tool:hover{color:var(--ink);opacity:1;transform:translateY(-3px)}
+  .tool svg{height:44px;width:auto;flex:none}
+  .tool .wm{font-weight:600;font-size:1.06rem;letter-spacing:-.01em}
+  .tool .wm small{font-weight:600;opacity:.85}
+  .tool .badge{width:30px;height:30px;border-radius:8px;background:currentColor;display:grid;place-items:center;flex:none}
+  .tool .badge b{color:var(--navy-900);font-weight:800;font-size:.78rem;line-height:1}
+  @media(max-width:760px){.tools-row{justify-content:center;gap:28px 34px}}
+
+  /* ---------- contact ---------- */
+  .contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:40px}
+  .contact-info h2{font-size:clamp(2rem,4.4vw,3rem);font-weight:800;letter-spacing:-.025em;line-height:1.05}
+  .contact-info .amber{color:var(--amber)}
+  .contact-info p{color:var(--muted);margin:16px 0 26px;max-width:30em}
+  .contact-list{display:flex;flex-direction:column;gap:12px}
+  .ci-row{display:flex;align-items:center;gap:14px;padding:14px 16px;border:1px solid var(--line);border-radius:var(--radius-sm);background:var(--navy-850);transition:border-color .3s,transform .3s}
+  .ci-row:hover{border-color:var(--amber);transform:translateX(4px)}
+  .ci-row .ic{width:40px;height:40px;border-radius:10px;background:rgba(139,92,246,.16);display:grid;place-items:center;flex:none;color:var(--blue-400)}
+  .ci-row .meta small{display:block;color:var(--muted-2);font-size:.74rem;font-family:"JetBrains Mono",monospace;letter-spacing:.06em}
+  .ci-row .meta span{font-weight:600;font-size:.95rem}
+  form{background:var(--navy-850);border:1px solid var(--line);border-radius:var(--radius);padding:30px}
+  .field{margin-bottom:18px}
+  .field label{display:block;font-size:.82rem;color:var(--muted);margin-bottom:8px;font-weight:500}
+  .field input,.field textarea{
+    width:100%;background:var(--navy-900);border:1px solid var(--line-2);border-radius:12px;
+    padding:13px 15px;color:var(--ink);font-family:inherit;font-size:.95rem;transition:border-color .25s,box-shadow .25s;
+  }
+  .field input:focus,.field textarea:focus{outline:none;border-color:var(--blue);box-shadow:0 0 0 3px rgba(139,92,246,.18)}
+  .field textarea{resize:vertical;min-height:120px}
+  form .btn-primary{width:100%;justify-content:center;margin-top:6px}
+  .form-note{font-size:.8rem;color:var(--muted-2);text-align:center;margin-top:14px}
+
+  /* ---------- success card ---------- */
+  .success{position:fixed;inset:0;z-index:130;display:none;align-items:center;justify-content:center;padding:24px}
+  .success.open{display:flex}
+  .success .sbg{position:fixed;inset:0;background:rgba(4,3,10,.8);backdrop-filter:blur(8px);animation:fade .3s}
+  .success-card{
+    position:relative;z-index:2;background:var(--navy-800);border:1px solid var(--line-2);
+    border-radius:var(--radius);padding:42px 38px 30px;text-align:center;max-width:390px;width:100%;
+    box-shadow:0 34px 80px rgba(0,0,0,.55);animation:rise .5s var(--ease);
+  }
+  .success-card .check{
+    width:74px;height:74px;border-radius:50%;margin:0 auto 22px;display:grid;place-items:center;
+    background:rgba(139,92,246,.16);border:1px solid var(--blue);color:var(--blue-400);
+  }
+  .success-card .check svg{width:36px;height:36px;animation:pop .5s var(--ease) .15s both}
+  @keyframes pop{0%{transform:scale(0)}70%{transform:scale(1.15)}100%{transform:scale(1)}}
+  .success-card h4{font-size:1.5rem;font-weight:800;letter-spacing:-.02em}
+  .success-card p{color:var(--muted);margin-top:8px;font-size:.95rem}
+  .success-card .bar{height:3px;border-radius:3px;background:var(--line);margin-top:24px;overflow:hidden}
+  .success-card .bar i{display:block;height:100%;width:100%;background:var(--blue);transform-origin:left}
+  @keyframes drain{from{transform:scaleX(1)}to{transform:scaleX(0)}}
+
+  /* ---------- footer ---------- */
+  footer{border-top:1px solid var(--line);padding:40px 0;margin-top:90px;position:relative;z-index:2}
+  .foot{display:flex;justify-content:space-between;align-items:center;gap:18px;flex-wrap:wrap}
+  .foot .socials{display:flex;gap:10px}
+  .foot .socials a{width:40px;height:40px;border-radius:11px;border:1px solid var(--line-2);display:grid;place-items:center;color:var(--muted);transition:all .3s}
+  .foot .socials a:hover{color:var(--navy-900);background:var(--amber);border-color:var(--amber);transform:translateY(-3px)}
+  .foot small{color:var(--muted-2);font-size:.84rem}
+
+  /* ---------- detail panel ---------- */
+  @keyframes fade{from{opacity:0}to{opacity:1}}
+  @keyframes rise{from{opacity:0;transform:translateY(30px) scale(.98)}to{opacity:1;transform:none}}
+  .detail{position:fixed;inset:0;z-index:100;background:var(--navy-900);display:none;overflow-y:auto;overflow-x:hidden}
+  .detail.open{display:block;animation:fade .35s}
+  .detail .bg-dots{position:absolute}
+  .dt-top{position:sticky;top:0;z-index:20;display:flex;align-items:center;justify-content:space-between;gap:16px;
+    padding:14px 0;background:rgba(7,6,16,.78);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+  .dt-back{display:inline-flex;align-items:center;gap:8px;font-weight:600;font-size:.9rem;color:var(--ink);
+    background:rgba(255,255,255,.06);border:1px solid var(--line-2);padding:9px 16px;border-radius:11px;cursor:pointer;
+    font-family:inherit;transition:transform .25s var(--ease),background .25s}
+  .dt-back:hover{transform:translateX(-3px);background:rgba(255,255,255,.1)}
+  .dt-top .name{font-weight:700;letter-spacing:-.01em;font-size:.95rem;color:var(--muted)}
+  .dt-top .name b{color:var(--ink)}
+
+  .dt-wrap{max-width:var(--maxw);margin:0 auto;padding-left:clamp(18px,4vw,40px);padding-right:clamp(18px,4vw,40px);position:relative;z-index:2}
+  .dt-hero{padding:60px 0 38px}
+  .dt-eyebrow{font-family:"JetBrains Mono",monospace;font-size:.74rem;letter-spacing:.18em;text-transform:uppercase;color:var(--amber)}
+  .dt-hero h1{font-size:clamp(2.4rem,6vw,4rem);font-weight:800;letter-spacing:-.03em;line-height:1.02;margin:16px 0}
+  .dt-hero .lead{font-size:1.15rem;color:var(--muted);max-width:34em}
+  .dt-meta{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);border:1px solid var(--line);
+    border-radius:var(--radius);overflow:hidden;margin-top:34px}
+  .dt-meta .m{background:var(--navy-850);padding:18px 20px}
+  .dt-meta .m small{display:block;font-family:"JetBrains Mono",monospace;font-size:.66rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted-2);margin-bottom:6px}
+  .dt-meta .m span{font-weight:600;font-size:.95rem}
+  .dt-tools{display:flex;flex-wrap:wrap;gap:9px;margin-top:18px}
+
+  .dt-cover{aspect-ratio:16/9;border-radius:var(--radius);overflow:hidden;position:relative;margin:8px 0 10px;
+    background:
+      radial-gradient(120% 120% at 0% 0%,rgba(139,92,246,.34),transparent 55%),
+      radial-gradient(120% 120% at 100% 100%,rgba(255,200,61,.22),transparent 55%),var(--navy-700);
+    border:1px solid var(--line);display:grid;place-items:center}
+  .dt-cover::after{content:"";position:absolute;inset:0;background-image:linear-gradient(var(--line) 1px,transparent 1px),linear-gradient(90deg,var(--line) 1px,transparent 1px);background-size:40px 40px;opacity:.5}
+  .dt-cover img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+  .ph-ic{position:relative;z-index:2;display:flex;flex-direction:column;align-items:center;gap:10px;color:var(--muted)}
+  .ph-ic svg{width:40px;height:40px;opacity:.5}
+  .ph-ic span{font-family:"JetBrains Mono",monospace;font-size:.66rem;letter-spacing:.18em;text-transform:uppercase}
+
+  .dt-section{padding:46px 0;border-top:1px solid var(--line)}
+  .dt-section .lbl{font-family:"JetBrains Mono",monospace;font-size:.74rem;letter-spacing:.16em;text-transform:uppercase;color:var(--blue-400);margin-bottom:18px;display:flex;align-items:center;gap:9px}
+  .dt-section .lbl .pac{width:13px;height:13px;border-radius:50%;background:var(--amber);flex:none;
+    -webkit-mask:conic-gradient(from -28deg at 50% 50%,#0000 0 56deg,#000 56deg);mask:conic-gradient(from -28deg at 50% 50%,#0000 0 56deg,#000 56deg)}
+  .dt-section h2{font-size:1.7rem;font-weight:800;letter-spacing:-.02em;margin-bottom:14px}
+  .dt-section p{color:var(--muted);font-size:1.04rem;max-width:46em}
+
+  .dt-quote{border-left:3px solid var(--blue);padding:6px 0 6px 26px;margin:30px 0 0;
+    font-size:1.4rem;font-weight:600;letter-spacing:-.01em;line-height:1.4;color:var(--ink);max-width:24em}
+
+  .dt-goals{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:6px}
+  .dt-goal{background:var(--navy-800);border:1px solid var(--line);border-radius:var(--radius-sm);padding:22px}
+  .dt-goal .n{width:30px;height:30px;border-radius:9px;background:rgba(139,92,246,.16);border:1px solid var(--blue);color:var(--blue-400);display:grid;place-items:center;font-weight:700;font-size:.85rem;margin-bottom:14px}
+  .dt-goal p{font-size:.96rem;color:var(--ink);max-width:none}
+
+  .dt-process{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-top:6px}
+  .dt-step .k{font-family:"JetBrains Mono",monospace;font-size:.8rem;color:var(--amber);font-weight:600}
+  .dt-step .bar{height:2px;background:var(--line);margin:12px 0;position:relative;overflow:hidden}
+  .dt-step .bar::after{content:"";position:absolute;left:0;top:0;height:100%;width:40%;background:var(--blue)}
+  .dt-step h4{font-size:1.05rem;font-weight:700;margin-bottom:8px}
+  .dt-step p{font-size:.9rem;color:var(--muted)}
+
+  .dt-insights{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:6px}
+  .dt-ins{background:var(--navy-850);border:1px solid var(--line);border-radius:var(--radius-sm);padding:22px;position:relative}
+  .dt-ins::before{content:"“";position:absolute;top:6px;left:16px;font-size:2.4rem;color:var(--blue);opacity:.4;font-family:"Poppins",serif}
+  .dt-ins p{font-size:.96rem;color:var(--ink);max-width:none;padding-top:18px}
+
+  .dt-screens{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:6px}
+  .dt-shot{aspect-ratio:4/3;border-radius:var(--radius-sm);overflow:hidden;position:relative;border:1px solid var(--line);
+    background:
+      radial-gradient(120% 120% at 0% 0%,rgba(139,92,246,.22),transparent 55%),
+      radial-gradient(120% 120% at 100% 100%,rgba(255,200,61,.15),transparent 55%),var(--navy-700);
+    display:grid;place-items:center;transition:transform .35s var(--ease),border-color .35s}
+  .dt-shot:hover{transform:translateY(-4px);border-color:var(--line-2)}
+  .dt-shot::after{content:"";position:absolute;inset:0;background-image:linear-gradient(var(--line) 1px,transparent 1px),linear-gradient(90deg,var(--line) 1px,transparent 1px);background-size:26px 26px;opacity:.5}
+  .dt-shot img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+  .dt-shot .ph-ic svg{width:26px;height:26px}
+  .dt-shot .ph-ic span{font-size:.6rem}
+
+  .dt-results{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;margin-top:6px}
+  .dt-res{background:var(--navy-850);padding:30px 26px}
+  .dt-res .num{font-size:2.6rem;font-weight:800;letter-spacing:-.02em;color:var(--amber);line-height:1}
+  .dt-res .lab{font-size:.9rem;color:var(--muted);margin-top:8px}
+
+  .dt-next{display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap;
+    background:var(--navy-800);border:1px solid var(--line-2);border-radius:var(--radius);padding:30px 34px;margin:46px 0 70px;cursor:pointer;
+    transition:transform .35s var(--ease),border-color .35s}
+  .dt-next:hover{transform:translateY(-4px);border-color:var(--blue)}
+  .dt-next small{font-family:"JetBrains Mono",monospace;font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted-2)}
+  .dt-next h3{font-size:1.5rem;font-weight:800;letter-spacing:-.02em;margin-top:6px}
+  .dt-next .go{width:52px;height:52px;border-radius:50%;background:var(--blue);display:grid;place-items:center;color:#fff;flex:none;transition:transform .35s var(--ease)}
+  .dt-next:hover .go{transform:translateX(5px)}
+  .dt-demo{font-size:.72rem;color:var(--amber-deep);font-family:"JetBrains Mono",monospace;margin-top:30px;display:block;text-align:center;opacity:.8}
+
+  @media(max-width:820px){
+    .dt-meta{grid-template-columns:repeat(2,1fr)}
+    .dt-process,.dt-goals,.dt-insights,.dt-screens,.dt-results{grid-template-columns:1fr}
+    .dt-process{gap:14px}
+  }
+  @media(max-width:560px){
+    .dt-results{grid-template-columns:1fr}
+  }
+
+  /* ---------- reveal animation ---------- */
+  .reveal{opacity:0;transform:translateY(28px);transition:opacity .7s var(--ease),transform .7s var(--ease)}
+  .reveal.in{opacity:1;transform:none}
+  .reveal[data-d="1"]{transition-delay:.08s}
+  .reveal[data-d="2"]{transition-delay:.16s}
+  .reveal[data-d="3"]{transition-delay:.24s}
+
+  /* ---------- responsive ---------- */
+  @media(max-width:900px){
+    .hero-grid,.about-grid,.cert-grid,.contact-grid{grid-template-columns:1fr}
+    .work-grid{grid-template-columns:repeat(2,1fr)}
+    .cert-shots{grid-template-columns:repeat(2,1fr)}
+    .stats{grid-template-columns:repeat(2,1fr)}
+    .nav-links{display:none}
+    .menu-toggle{display:block}
+    .nav-links.show{display:flex;position:absolute;top:64px;left:32px;right:32px;flex-direction:column;align-items:stretch;background:var(--navy-800);border:1px solid var(--line-2);border-radius:16px;padding:10px}
+    .nav-links.show a{padding:12px}
+    .hero{padding-top:130px;padding-bottom:60px}
+    .modal-body{padding:26px 22px 30px}
+    .dt-aud,.dt-stats,.dt-pains{grid-template-columns:1fr !important}
+    .dt-persona{grid-template-columns:1fr !important}
+    .pa-cols{grid-template-columns:1fr 1fr !important}
+    .dt-ks{grid-template-columns:1fr !important}
+    .dt-ks .ks-img{order:-1}
+    .dt-cmp{overflow-x:auto;overflow-y:hidden;-webkit-overflow-scrolling:touch}
+    .dt-cmp table{min-width:520px}
+    .dt-gallery.mobile{grid-template-columns:repeat(2,1fr) !important}
+    .dt-gallery.web{grid-template-columns:1fr !important}
+  }
+  @media(max-width:560px){
+    .stats{grid-template-columns:1fr 1fr}
+    .work-grid{grid-template-columns:1fr}
+    .cert-band{padding:24px 20px}
+    .nav-links.show{left:22px;right:22px}
+  }
+
+  @media(prefers-reduced-motion:reduce){
+    *{animation:none!important;transition-duration:.01ms!important;scroll-behavior:auto!important}
+    .reveal{opacity:1;transform:none}
+  }
+  /* ---------- enriched case-study sections ---------- */
+  .dt-tools.resp-row{margin-top:10px}
+  .pill.resp{background:transparent;border:1px dashed var(--line-2);color:var(--muted)}
+  .dt-aud{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:6px}
+  .dt-aud .a{background:var(--navy-800);border:1px solid var(--line);border-radius:var(--radius-sm);padding:22px}
+  .dt-aud small{display:block;font-family:"JetBrains Mono",monospace;font-size:.66rem;letter-spacing:.14em;text-transform:uppercase;color:var(--amber);margin-bottom:8px}
+  .dt-aud p{color:var(--ink);max-width:none;font-size:.98rem}
+  .dt-method{font-size:.95rem;color:var(--muted);margin-bottom:22px}
+  .dt-method span{font-family:"JetBrains Mono",monospace;font-size:.66rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted-2);margin-right:8px}
+  .dt-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;margin-bottom:26px}
+  .dt-stat{background:var(--navy-850);padding:26px 24px}
+  .dt-stat .num{font-size:2.5rem;font-weight:800;letter-spacing:-.02em;color:var(--amber);line-height:1}
+  .dt-stat .num span{font-size:1.3rem}
+  .dt-stat .lab{font-size:.86rem;color:var(--muted);margin-top:8px}
+  .dt-find{list-style:none;display:grid;gap:10px;max-width:46em}
+  .dt-find li{position:relative;padding-left:26px;color:var(--ink);font-size:.98rem}
+  .dt-find li::before{content:"";position:absolute;left:4px;top:8px;width:8px;height:8px;border-radius:50%;background:var(--blue-400)}
+  .dt-cmp{margin-top:6px;border:1px solid var(--line);border-radius:var(--radius);overflow:hidden}
+  .dt-cmp table{width:100%;border-collapse:collapse;font-size:.9rem}
+  .dt-cmp th,.dt-cmp td{text-align:left;padding:14px 16px;border-bottom:1px solid var(--line);vertical-align:top}
+  .dt-cmp thead th{background:var(--navy-800);font-family:"JetBrains Mono",monospace;font-size:.68rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+  .dt-cmp td.feat{font-weight:600;color:var(--ink);background:var(--navy-880,rgba(255,255,255,.02))}
+  .dt-cmp td{color:var(--muted)}
+  .dt-cmp .self,.dt-cmp td.self{color:var(--ink)}
+  .dt-cmp th.self{background:rgba(139,92,246,.16);color:var(--blue-400)}
+  .dt-cmp td.self{background:rgba(139,92,246,.06);font-weight:600}
+  .dt-cmp tr:last-child td{border-bottom:none}
+  .yn{font-weight:800}.yn.y{color:#3FC07A}.yn.n{color:#E0556B}
+  .dt-pains{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:6px}
+  .dt-pain{display:flex;gap:12px;align-items:flex-start;background:var(--navy-850);border:1px solid var(--line);border-radius:var(--radius-sm);padding:18px 20px}
+  .dt-pain .x{flex:none;width:22px;height:22px;border-radius:50%;background:rgba(224,85,107,.14);color:#E0556B;display:grid;place-items:center;font-size:.7rem;font-weight:800;margin-top:1px}
+  .dt-pain p{color:var(--ink);max-width:none;font-size:.95rem}
+  .dt-persona{display:grid;grid-template-columns:260px 1fr;gap:24px;margin-top:6px;background:var(--navy-850);border:1px solid var(--line);border-radius:var(--radius);padding:28px}
+  .pa-id{text-align:center}
+  .pa-av{width:96px;height:96px;border-radius:50%;margin:0 auto 16px;display:grid;place-items:center;font-size:2rem;font-weight:800;color:#fff;background:linear-gradient(135deg,var(--blue),var(--blue-400));letter-spacing:.02em}
+  .pa-av{overflow:hidden}
+  .pa-av img{width:100%;height:100%;object-fit:cover;display:block}
+  .pa-name{font-size:1.25rem;font-weight:800;letter-spacing:-.01em}
+  .pa-rows{display:grid;grid-template-columns:auto 1fr;gap:6px 14px;text-align:left;margin-top:18px;font-size:.9rem}
+  .pa-rows span{font-family:"JetBrains Mono",monospace;font-size:.64rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted-2);align-self:center}
+  .pa-rows b{color:var(--ink);font-weight:600}
+  .pa-bio{color:var(--muted);font-size:.98rem;max-width:none;border-left:3px solid var(--blue);padding-left:18px}
+  .pa-cols{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-top:24px}
+  .pa-col h5{font-family:"JetBrains Mono",monospace;font-size:.66rem;letter-spacing:.12em;text-transform:uppercase;color:var(--amber);margin-bottom:10px}
+  .pa-col ul{list-style:none;display:grid;gap:7px}
+  .pa-col li{font-size:.86rem;color:var(--ink);position:relative;padding-left:14px}
+  .pa-col li::before{content:"·";position:absolute;left:2px;color:var(--blue-400);font-weight:800}
+  .dt-keyscreens{display:grid;gap:30px;margin-top:6px}
+  .dt-ks{display:grid;grid-template-columns:1fr 1fr;gap:30px;align-items:center}
+  .dt-ks.rev .ks-img{order:2}
+  .dt-ks .ks-img{border-radius:var(--radius);overflow:hidden;border:1px solid var(--line);background:linear-gradient(160deg,var(--navy-800),var(--navy-900));display:grid;place-items:center;cursor:zoom-in;padding:18px}
+  .dt-ks.mobile .ks-img img{max-height:540px;width:auto;max-width:100%;border-radius:18px;box-shadow:0 22px 50px rgba(0,0,0,.5)}
+  .dt-ks.web .ks-img{padding:0}
+  .dt-ks.web .ks-img img{width:100%;display:block}
+  .ks-txt .ks-n{font-family:"JetBrains Mono",monospace;font-size:.7rem;letter-spacing:.14em;text-transform:uppercase;color:var(--amber)}
+  .ks-txt h3{font-size:1.5rem;font-weight:800;letter-spacing:-.02em;margin:8px 0 12px}
+  .ks-txt p{color:var(--muted);max-width:38em}
+  .dt-gallery{display:grid;gap:14px;margin-top:14px}
+  .dt-gallery.mobile{grid-template-columns:repeat(4,1fr)}
+  .dt-gallery.web{grid-template-columns:repeat(2,1fr)}
+  .dt-galitem{border:0px solid var(--line);border-radius:var(--radius-sm);overflow:hidden;background:var(--navy-850);cursor:zoom-in;padding:0;display:block;transition:transform .3s var(--ease),border-color .3s var(--ease)}
+  .dt-galitem:hover{transform:translateY(-4px);border-color:var(--blue)}
+  .dt-galitem img{width:100%;display:block}
+  .dt-gallery.mobile .dt-galitem img{height:auto; object-fit:contain}
+  .lb-stage img{max-width:100%;max-height:84vh;border-radius:10px;display:block;margin:0 auto}
+
+
+  /* ---------- flat-black placeholders (no grid / border / icon) ---------- */
+  .ph,.dt-cover,.dt-shot{background:#000 !important;border:none !important;box-shadow:none !important}
+  .ph::after,.dt-cover::after,.dt-shot::after{display:none !important}
+  .ph-ic{display:none !important}
+  /* ---- mobile nav fit ---- */
+  .brand{white-space:nowrap}
+  @media(max-width:640px){
+    #head .btn-primary{font-size:0;padding:10px;gap:0}
+    #head .btn-primary svg{width:18px;height:18px}
+    .dt-cmp{overflow:visible}
+  .dt-cmp table{min-width:0;width:100%;display:block}
+  .dt-cmp thead{display:none}
+  .dt-cmp tbody{display:block}
+  .dt-cmp tr{display:block;border-bottom:1px solid var(--line);padding:6px 0}
+  .dt-cmp tr:last-child{border-bottom:none}
+  .dt-cmp td{display:flex;justify-content:space-between;align-items:baseline;gap:18px;padding:7px 16px;border:none;text-align:right;color:var(--muted)}
+  .dt-cmp td::before{content:attr(data-label);font-family:"JetBrains Mono",monospace;font-size:.62rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted-2);text-align:left;white-space:nowrap}
+  .dt-cmp td.feat{display:block;text-align:left;font-size:1rem;color:var(--ink);background:none;padding:8px 16px 6px}
+  .dt-cmp td.feat::before{display:none}
+  .dt-cmp td.self{background:rgba(139,92,246,.06);color:var(--ink)}
+  }
+</style>
+</head>
+<body>
+  <div class="bg-dots"></div>
+  <div class="atmos"><div class="glow a"></div><div class="glow b"></div></div>
+
+  <header id="head">
+    <div class="wrap nav">
+      <a class="brand" href="index.html"><span class="logo"><img src="assets/website-icons/logo.png" alt="V. Burak Keles" /></span>V. Burak Keles</a>
+      <nav class="nav-links" id="navLinks">
+        <a href="index.html">Home</a>
+        <a href="work.html" style="color:var(--ink);background:rgba(255,255,255,.06)">Works</a>
+      </nav>
+      <div style="display:flex;align-items:center;gap:12px">
+        <a class="btn btn-primary" href="assets/cv/Veysel-Burak-Keles-Resume.pdf" download="Veysel-Burak-Keles-Resume.pdf">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12m0 0l-4-4m4 4l4-4M5 21h14"/></svg>
+          Download CV
+        </a>
+        <button class="menu-toggle" id="menuBtn" aria-label="Menu">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <span id="top"></span>
+
+  <section class="sec wrap" style="padding-top:150px">
+    <div class="sec-head reveal">
+      <span class="eyebrow">Selected Works</span>
+      <h2>Some works I've shipped.</h2>
+      <p>The full list of projects — each opens a complete case study with the problem, my role, the process, and the results. Tap any card.</p>
+    </div>
+    <div class="work-grid" id="workGrid"><!-- injected by JS --></div>
+    <div class="work-all reveal">
+      <a class="btn btn-ghost" href="index.html">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5m6-6l-6 6 6 6"/></svg>
+        Back to home
+      </a>
+    </div>
+  </section>
+
+  <footer>
+    <div class="wrap foot">
+      <a class="brand" href="index.html"><span class="logo"><img src="assets/website-icons/logo.png" alt="V. Burak Keles" /></span>V. Burak Keles</a>
+      <div class="socials">
+        <a href="http://www.linkedin.com/in/vburakkeles" target="_blank" rel="noopener" aria-label="LinkedIn"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M6.94 5a2 2 0 11-4 0 2 2 0 014 0zM3.5 8.5h2.9V21H3.5V8.5zM9.2 8.5h2.78v1.7h.04c.39-.7 1.34-1.7 3.05-1.7 3.26 0 3.86 2.1 3.86 4.83V21h-2.9v-5.36c0-1.28-.02-2.93-1.8-2.93-1.8 0-2.07 1.4-2.07 2.84V21H9.2V8.5z"/></svg></a>
+      </div>
+      <small>© 2026 Burak Keleş — Designed & built with care.</small>
+    </div>
+  </footer>
+
+<!-- ============ PROJECT DETAIL ============ -->
+  <div class="detail" id="detail" aria-hidden="true">
+    <div class="bg-dots"></div>
+    <div class="dt-top">
+      <div class="dt-wrap" style="display:flex;align-items:center;justify-content:space-between;width:100%">
+        <button class="dt-back" id="dtBack">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5m6-6l-6 6 6 6"/></svg>
+          Selected Works
+        </button>
+        <span class="name" id="dtTopName"></span>
+      </div>
+    </div>
+    <div id="dtBody"></div>
+  </div>
+
+  <!-- ============ CERTIFICATE LIGHTBOX ============ -->
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <div class="lb-bg" id="lbBg"></div>
+    <div class="lb-card">
+      <button class="lb-close" id="lbClose" aria-label="Close">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg>
+      </button>
+      <div class="lb-stage" id="lbStage"></div>
+    </div>
+
+<script>
+/* ---------------- project data ---------------- */
+const projects = [
+ {
+  "t": "DOA",
+  "cat": "Recycling & Deposit Return",
+  "year": "2022–2025",
+  "cover": "assets/covers/doa.jpg",
+  "featured": true,
+  "format": "mobile",
+  "tagline": "Return a bottle, get your deposit back — without the friction.",
+  "role": "UX/UI Designer",
+  "platform": "iOS, Android & Web",
+  "tools": [
+   "FigJam",
+   "Miro",
+   "Figma"
+  ],
+  "responsibilities": [
+   "Research",
+   "Wireframing",
+   "UI Design",
+   "Prototyping",
+   "iOS",
+   "Android",
+   "Admin Panels"
+  ],
+  "tags": [
+   "Research",
+   "Wireframing",
+   "UI Design",
+   "Prototyping",
+   "iOS",
+   "Android",
+   "Admin Panels"
+  ], 
+  "overview": "DOA (Depozitosu Olan Ambalajlar) is Turkey's nationwide recycling platform that lets citizens return beverage containers and get their deposit back. It integrates QR scanning, return-machine (RVM) locations, e-wallet tracking, and a reward system — making recycling effortless for everyone.",
+  "challenge": "Recycling rates in Turkey are low due to limited awareness, complex processes, and few incentives. People often throw recyclable containers away because returning them isn't convenient or rewarding.",
+  "quote": "People recycle when it's easier to return a bottle than to throw it away.",
+  "goals": [
+   "Let every citizen return containers easily via QR codes and machines",
+   "Increase recycling participation across all ages",
+   "Ensure accessibility and simplicity for a diverse population"
+  ],
+  "audience": {
+   "primary": "18–65 general citizens who buy beverages and use the system frequently.",
+   "secondary": "Students, families, and elderly users seeking convenience and financial rewards."
+  },
+  "research": {
+   "method": "40-person survey, 6 in-depth interviews, 4 prototype tests",
+   "findings": [
+    "72% of users were unaware of deposit-return systems before",
+    "65% wanted an easy way to find return machines nearby",
+    "80% wanted refunds transferred directly to their bank account"
+   ]
+  },
+  "stats": [
+   {
+    "n": "72",
+    "s": "%",
+    "l": "unaware of deposit systems"
+   },
+   {
+    "n": "80",
+    "s": "%",
+    "l": "want bank transfers"
+   },
+   {
+    "n": "40",
+    "s": "",
+    "l": "survey + interviews + tests"
+   }
+  ],
+  "competitors": {
+   "a": "Germany Pfand",
+   "b": "Norway RVM",
+   "rows": [
+    [
+     "QR & barcode return",
+     "yes",
+     "yes",
+     "yes"
+    ],
+    [
+     "Refund options",
+     "Voucher",
+     "Voucher / E-wallet",
+     "E-wallet + Bank"
+    ],
+    [
+     "App integration",
+     "Limited",
+     "Basic",
+     "Full mobile integration"
+    ],
+    [
+     "User experience",
+     "Moderate",
+     "Strong",
+     "Modern, simple, for all ages"
+    ]
+   ]
+  },
+  "painPoints": [
+   "Citizens don't know where to return containers",
+   "Long queues or complicated refunds reduce motivation",
+   "No way to track refunds",
+   "Elderly users struggle with complex interfaces"
+  ],
+  "persona": {
+   "name": "Mehmet Kaya",
+   "photo": "assets/personas/doa-mehmet-kaya.jpg",
+   "age": "42",
+   "job": "Shop Owner",
+   "location": "Bursa, Turkey",
+   "bio": "Mehmet frequently buys bottled water and sodas for both his shop and his family. He cares about the environment but has little time, and wants a simple way to return containers and get his deposit back quickly.",
+   "personality": [
+    "Practical",
+    "Time-conscious",
+    "Family-oriented",
+    "Not highly tech-savvy"
+   ],
+   "goals": [
+    "Return containers without wasting time",
+    "Track deposit refunds in a simple balance screen",
+    "Teach his kids environmental responsibility"
+   ],
+   "pains": [
+    "Doesn't know machine locations",
+    "Confused by complex apps",
+    "Frustrated if refunds take too long"
+   ],
+   "motivations": [
+    "Financial savings",
+    "Teaching children recycling habits",
+    "A cleaner environment"
+   ]
+  },
+  "keyScreens": [
+   {
+    "name": "Home",
+    "img": "assets/doa/01.png",
+    "desc": "Current balance plus a monthly recycling summary by material type. Quick actions (Pay, Receive, Transfer) and a recent-transactions list build transparency and trust."
+   },
+   {
+    "name": "Return Points",
+    "img": "assets/doa/05.png",
+    "desc": "An interactive map with clear markers shows nearby machines and distances. A detail card gives exact location and machine count, so trips are easy to plan."
+   },
+   {
+    "name": "Recycling History",
+    "img": "assets/doa/07.png",
+    "desc": "Celebrates impact with a hero message — total recycled items, CO₂ reduction, energy saved — plus per-material stats and a most-used-machines list to reinforce the habit."
+   }
+  ],
+  "gallery": [
+   "assets/doa/01.png",
+   "assets/doa/02.png",
+   "assets/doa/03.png",
+   "assets/doa/04.png",
+   "assets/doa/05.png",
+   "assets/doa/06.png",
+   "assets/doa/07.png",
+   "assets/doa/08.png",
+   "assets/doa/09.png"
+  ],
+  "learning": "Designing strong, age-friendly defaults and a transparent balance screen did more for adoption than any incentive — clarity is the real reward."
+ },
+ {
+  "t": "Vita",
+  "cat": "AI Wellness App",
+  "year": "2026",
+  "cover": "assets/covers/vita.jpg",
+  "featured": true,
+  "format": "mobile",
+  "tagline": "One calm home for fitness, nutrition, and everyday wellness.",
+  "role": "UX/UI Designer",
+  "platform": "iOS & Android",
+  "tools": [
+   "FigJam",
+   "Zeplin",
+   "Figma"
+  ],
+  "responsibilities": [
+   "Research",
+   "Wireframing",
+   "UI Design",
+   "Prototyping",
+   "iOS",
+   "Android"
+  ],
+  "tags": [
+   "Research",
+   "Wireframing",
+   "UI Design",
+   "Prototyping",
+   "iOS",
+   "Android"
+  ],
+  "overview": "Vita is an AI-powered wellness app that helps users adopt healthier lifestyles. By combining fitness tracking, nutrition insights, and personalized recommendations, it creates a holistic ecosystem for health improvement.",
+  "challenge": "Many people struggle to keep a consistent healthy routine. Existing apps split fitness, nutrition, and mental wellness across separate platforms, making sustainable habits hard to build.",
+  "quote": "Wellness sticks when everything that matters lives in one calm place.",
+  "goals": [
+   "Unify fitness, nutrition, and wellness in one platform",
+   "Provide personalized AI recommendations from user input and activity",
+   "Encourage long-term engagement through gamification and tracking",
+   "Build a simple, motivating, and accessible experience"
+  ],
+  "audience": {
+   "primary": "Individuals aged 18–50 balancing a healthy lifestyle with school or work.",
+   "secondary": "Regular exercisers, nutrition-focused users, and wellness-trend followers."
+  },
+  "research": {
+   "method": "20 user interviews",
+   "findings": [
+    "65% switch between multiple apps for fitness and nutrition",
+    "70% want daily motivation and reminders to stay consistent",
+    "55% find it hard to track progress over time",
+    "AI-driven suggestions strongly increase engagement"
+   ]
+  },
+  "stats": [
+   {
+    "n": "65",
+    "s": "%",
+    "l": "juggle multiple apps"
+   },
+   {
+    "n": "70",
+    "s": "%",
+    "l": "want daily motivation"
+   },
+   {
+    "n": "20",
+    "s": "",
+    "l": "users interviewed"
+   }
+  ],
+  "competitors": {
+   "a": "MyFitnessPal",
+   "b": "Fitbit",
+   "rows": [
+    [
+     "Fitness tracking",
+     "yes",
+     "yes",
+     "yes"
+    ],
+    [
+     "AI recommendations",
+     "no",
+     "no",
+     "yes"
+    ],
+    [
+     "Content & community",
+     "Limited",
+     "Limited",
+     "yes"
+    ],
+    [
+     "UI/UX simplicity",
+     "Crowded",
+     "Functional",
+     "Clean & modern"
+    ]
+   ]
+  },
+  "painPoints": [
+   "Fragmented apps for fitness and nutrition",
+   "Lack of personalization in existing platforms",
+   "Low motivation and habit drop-off after initial use",
+   "Difficulty tracking holistic health progress"
+  ],
+  "persona": {
+   "name": "Emily Parker",
+   "photo": "assets/personas/vita-emily-parker.jpg",
+   "age": "29",
+   "job": "Project Coordinator",
+   "location": "Amsterdam, Netherlands",
+   "bio": "Emily is a young professional who tries to stay active while managing a demanding work schedule. She struggles with consistency in fitness and nutrition, having tried multiple apps without finding a unified solution. She wants one platform to track wellness holistically.",
+   "personality": [
+    "Organized",
+    "Health-conscious",
+    "Social",
+    "Motivated by measurable progress"
+   ],
+   "goals": [
+    "Maintain a balanced lifestyle despite a busy job",
+    "Receive personalized guidance in one app",
+    "Build long-term healthy habits"
+   ],
+   "pains": [
+    "Juggling multiple apps feels overwhelming",
+    "Loses motivation when results aren't visible",
+    "Needs regular reminders to stay consistent"
+   ],
+   "motivations": [
+    "Visible progress in fitness and wellness",
+    "Staying energized for work and social life",
+    "Long-term balance in health habits"
+   ]
+  },
+  "keyScreens": [
+   {
+    "name": "Home",
+    "img": "assets/vita/06.png",
+    "desc": "The daily hub: a personalized health score, a daily-goals card with progress, real-time AI suggestions, and hydration, nutrition, and sleep summaries."
+   },
+   {
+    "name": "AI Assistant",
+    "img": "assets/vita/12.png",
+    "desc": "A conversational interface with quick actions like Relax me, Quick workout, and Sleep tips. It responds empathetically with practical recommendations."
+   },
+   {
+    "name": "Profile",
+    "img": "assets/vita/14.png",
+    "desc": "Long-term progress at a glance — completion rate, goal frequency, and health-score trends — with tabs for exercise, mind, nutrition, hydration, and sleep."
+   }
+  ],
+  "gallery": [
+   "assets/vita/01.png",
+   "assets/vita/02.png",
+   "assets/vita/03.png",
+   "assets/vita/04.png",
+   "assets/vita/05.png",
+   "assets/vita/06.png",
+   "assets/vita/07.png",
+   "assets/vita/08.png",
+   "assets/vita/09.png",
+   "assets/vita/10.png",
+   "assets/vita/11.png",
+   "assets/vita/12.png",
+   "assets/vita/13.png",
+   "assets/vita/14.png"
+  ],
+  "learning": "Designing for reassurance first — then depth — turned a clinical-feeling app into something people genuinely returned to."
+ },
+ {
+  "t": "SwarmOps",
+  "cat": "Command & Control",
+  "year": "2026",
+  "cover": "assets/covers/swarmops.jpg",
+  "featured": true,
+  "format": "web",
+  "tagline": "Commanding multiple drone swarms and a live fire-response operation from a single tactical map.",
+  "role": "Product Designer",
+  "platform": "Desktop",
+  "tools": [
+   "FigJam",
+   "Figma"
+  ],
+  "responsibilities": [
+   "Research",
+   "Branding",
+   "Wireframing",
+   "UX/UI Design",
+   "Prototyping",
+   "Desktop"
+  ],
+  "tags": [
+   "Research",
+   "Branding",
+   "Wireframing",
+   "UX/UI Design",
+   "Prototyping",
+   "Desktop"
+  ],
+  "overview": "SwarmOps is an advanced tactical control panel where a single operator manages multiple drone swarms and independent drones on one map, plans missions dynamically, and directs fire-suppression UAVs. It was delivered as a 40-screen interactive prototype and a 21-screen scenario flow.",
+  "challenge": "The operator has to command several swarms plus independent drones on one surface — creating a new swarm mid-crisis, handling a drone failure, responding to spreading fires, and returning every unit home safely — all without losing situational context or making a costly mis-click under pressure.",
+  "quote": "When one wrong tap can ground a fleet, the interface's job is to make the right move the obvious one.",
+  "goals": [
+   "Unify multi-swarm and independent-drone control on a single tactical map",
+   "Support dynamic mission planning — no-fly zones, re-routing, new swarms mid-mission",
+   "Prevent operator error with confirmation and alert systems on critical commands",
+   "Keep fast-changing telemetry legible with monospace type and fixed-layout panels",
+   "Enable fluid macro-to-micro movement, from fleet overview down to single-drone diagnostics"
+  ],
+  "audience": {
+   "primary": "Drone-swarm operators and tactical command staff coordinating multi-unit emergency response in real time.",
+   "secondary": "Mission analysts and response coordinators monitoring fleet status and reviewing after-action reports."
+  },
+  "research": {
+   "method": "Reference analysis across four domains: professional ground-control software, military command-and-control systems, RTS unit management, and logistics / monitoring dashboards.",
+   "findings": [
+    "GCS software (Mission Planner, QGroundControl) → side-panel + map layout, inline telemetry tags, confirmation-slider commands",
+    "Military C2 (Anduril Lattice, Palantir Gotham, ATAK, MIL-STD-2525) → entity-driven side panel, hierarchical drill-down, diamond unit symbology",
+    "RTS games (StarCraft II, Supreme Commander, Company of Heroes) → rectangular selection, control groups, squad health, macro/micro toggle",
+    "Logistics dashboards (Flightradar24, Datadog, Linear/Vercel) → trajectory lines with ETA, colour-coded alert banners, soft-dark aesthetic with JetBrains Mono"
+   ]
+  },
+  "painPoints": [
+   "Multiple swarms plus independent drones must be commanded on one surface without losing context",
+   "Critical commands (redirect, return-to-base, emergency landing) risk mis-clicks under pressure",
+   "Constantly changing telemetry — altitude, speed, battery, coordinates — must stay aligned and flicker-free",
+   "Operators need to move between fleet-level overview and single-drone diagnostics instantly"
+  ],
+  "keyScreens": [
+   {"name": "Ready state", "img": "assets/swarmops/002.png", "desc": "System ready — ALPHA and BRAVO on standby, FIRE-01 detected. The left panel lists active units with capacity, battery, ammo and status; the right detail panel stays empty until something is selected. The top bar carries connection, GPS, wind and clock indicators."},
+   {"name": "Macro / Micro & mini-map", "img": "assets/swarmops/006.png", "desc": "The Macro/Micro toggle — borrowed from Supreme Commander's strategic view — zooms in to individual drones while a mini-map widget preserves the macro context, so the operator never loses the big picture."},
+   {"name": "Drone diagnostics", "img": "assets/swarmops/008.png", "desc": "Micro drill-down to DRN-15: motor M2 running at 32% RPM, asymmetric thrust flagged. Three unambiguous actions — Return to base, Emergency landing, Continue mission — keep the critical decision clear."},
+   {"name": "Return-to-base routes", "img": "assets/swarmops/011.png", "desc": "With the mission complete, all three units head home on separate colour-coded trajectories — ALPHA a purple arc, BRAVO pink, CHARLIE orange — so 'who is going where' stays readable at a glance."}
+  ],
+  "gallery": [
+   "assets/swarmops/001.png",
+   "assets/swarmops/002.png",
+   "assets/swarmops/003.png",
+   "assets/swarmops/004.png",
+   "assets/swarmops/005.png",
+   "assets/swarmops/006.png",
+   "assets/swarmops/007.png",
+   "assets/swarmops/008.png",
+   "assets/swarmops/009.png",
+   "assets/swarmops/010.png",
+   "assets/swarmops/011.png",
+   "assets/swarmops/012.png"
+  ],
+  "learning": "Under pressure the interface itself has to prevent mistakes. A fixed layout with a dynamic right panel, confirmation on destructive commands, and consistent unit colours did more for operator safety than any single feature."
+ }, 
+ {
+  "t": "Monster Dashboard",
+  "cat": "Analytics Dashboard",
+  "year": "2019-2020",
+  "cover": "assets/covers/monsterdashboard.jpg",
+  "featured": false,
+  "format": "web",
+  "tagline": "Finding the signal in a tool that was all noise.",
+  "role": "UX/UI Designer",
+  "platform": "Web",
+  "tools": [
+   "Miro",
+   "Zeplin",
+   "Adobe XD"
+  ],
+  "responsibilities": [
+   "Research",
+   "Wireframing",
+   "UX/UI Design",
+   "Prototyping"
+  ],
+  "tags": [
+   "Research",
+   "Wireframing",
+   "UI Design",
+   "Prototyping",
+   "Dashboard",
+   "Admin Panels"
+  ],
+  "overview": "Monster Dashboard is a comprehensive analytics panel for marketing analysts and business managers. It centralizes financial metrics, product performance, and campaign management into one streamlined interface for data-driven decisions.",
+  "challenge": "Analysts and managers juggle fragmented reporting systems and switch between tools, which slows decisions and blocks a holistic view of business performance.",
+  "quote": "A dashboard's job is to answer questions — not to display everything it knows.",
+  "goals": [
+   "Centralize all financial and marketing data in one dashboard",
+   "Provide real-time insights with intuitive visualizations",
+   "Reduce reporting time and improve decision-making",
+   "Give analysts drill-down access to detailed data"
+  ],
+  "audience": {
+   "primary": "Marketing analysts and business managers monitoring KPIs daily and optimizing campaigns.",
+   "secondary": "Senior executives who want a high-level overview of company performance."
+  },
+  "keyScreens": [
+   {
+    "name": "KPIs & Graphs",
+    "img": "assets/monsterdashboard/01.png",
+    "desc": "Four KPIs (Income, Expenses, Profit, Orders) sit up top for instant visibility, with income/expense and sales-channel graphs below for pattern recognition."
+   },
+   {
+    "name": "Products, Traffic & Campaigns",
+    "img": "assets/monsterdashboard/02.png",
+    "desc": "Top products, traffic sources, and geographic sales distribution clarify performance drivers, with campaign management built right in."
+   }
+  ],
+  "learning": "Designing strong defaults beat designing for endless customization — most people just want the right view to already be there."
+ },
+ {
+  "t": "EduSphere",
+  "cat": "Mobile Learning Platform",
+  "year": "2021",
+  "cover": "assets/covers/edusphere.jpg",
+  "format": "mobile",
+  "tagline": "Turning a sprawling course catalog into a path people can finish.",
+  "role": "UX/UI Designer",
+  "platform": "iOS & Android",
+  "tools": [
+   "FigJam",
+   "Miro",
+   "Zeplin",
+   "Figma"
+  ],
+  "responsibilities": [
+   "Research",
+   "Wireframing",
+   "UI Design",
+   "Prototyping",
+   "iOS",
+   "Android"
+  ],
+  "tags": [
+   "Research",
+   "Wireframing",
+   "UI Design",
+   "Prototyping",
+   "iOS",
+   "Android"
+  ],
+  "overview": "EduSphere is a mobile learning platform designed to make knowledge accessible to everyone. Users explore categories, enroll in courses, and track their progress — with an intuitive interface and personalized recommendations that support continuous learning.",
+  "challenge": "Learners struggle to discover courses that match their goals, lack a structured path, and get lost in cluttered interfaces that make progress hard to track.",
+  "quote": "People don't leave because they lost interest — they leave because they lost their place.",
+  "goals": [
+   "Simplify course discovery with personalized recommendations",
+   "Improve engagement with structured course navigation",
+   "Offer transparent progress tracking for learners",
+   "Enhance accessibility with a modern, intuitive UI"
+  ],
+  "audience": {
+   "primary": "Young professionals (18–35) upskilling fast in tech, design, and business.",
+   "secondary": "Students and lifelong learners seeking affordable, structured online courses."
+  },
+  "research": {
+   "method": "Online survey · 50 respondents",
+   "findings": [
+    "68% struggle to find courses matching their goals",
+    "72% value progress tracking and clear milestones",
+    "55% were frustrated by cluttered UI in competitors",
+    "Users prefer modular course design with clear chapters"
+   ]
+  },
+  "stats": [
+   {
+    "n": "68",
+    "s": "%",
+    "l": "can't find the right course"
+   },
+   {
+    "n": "72",
+    "s": "%",
+    "l": "value progress tracking"
+   },
+   {
+    "n": "50",
+    "s": "",
+    "l": "survey respondents"
+   }
+  ],
+  "competitors": {
+   "a": "Coursera",
+   "b": "Udemy",
+   "rows": [
+    [
+     "Course discovery",
+     "Limited filters",
+     "Wide variety",
+     "Personalized recommendations"
+    ],
+    [
+     "Progress tracking",
+     "Basic",
+     "Basic",
+     "Detailed progress & milestones"
+    ],
+    [
+     "Pricing flexibility",
+     "Subscription-based",
+     "Pay per course",
+     "Flexible & affordable plans"
+    ],
+    [
+     "User experience",
+     "Functional",
+     "Crowded",
+     "Clean & modern"
+    ],
+    [
+     "Mobile-first design",
+     "Average",
+     "Average",
+     "Fully optimized"
+    ]
+   ]
+  },
+  "painPoints": [
+   "Difficulty discovering the right courses",
+   "No structured learning path",
+   "Weak progress-tracking systems",
+   "Overloaded, confusing UI in other apps"
+  ],
+  "persona": {
+   "name": "Alex Carter",
+   "photo": "assets/personas/edusphere-alex-carter.jpg",
+   "age": "25",
+   "job": "Junior UX Designer",
+   "location": "Berlin, Germany",
+   "bio": "Alex is a junior UX designer who wants to quickly improve his skills and stay current. He has tried different e-learning apps but often lost motivation to cluttered interfaces and unstructured courses. He values a clear roadmap and progress tracking.",
+   "personality": [
+    "Ambitious",
+    "Goal-oriented",
+    "Mobile-savvy",
+    "Prefers visual learning"
+   ],
+   "goals": [
+    "Learn new skills efficiently to advance his career",
+    "Track learning progress with clarity and milestones",
+    "Access affordable, structured courses"
+   ],
+   "pains": [
+    "Gets lost without a structured content flow",
+    "Frustrated by cluttered, confusing interfaces",
+    "Struggles to stay motivated in long, unorganized courses"
+   ],
+   "motivations": [
+    "Career growth and promotion",
+    "Building a standout skillset",
+    "Transitioning to a senior role within 2–3 years"
+   ]
+  },
+  "keyScreens": [
+   {
+    "name": "Home",
+    "img": "assets/edusphere/03.png",
+    "desc": "A top area surfaces courses in progress for continuity. Below, Categories and Newly Added Courses spark interest and motivate further learning."
+   },
+   {
+    "name": "Discover",
+    "img": "assets/edusphere/04.png",
+    "desc": "Trending categories and the user's chosen topic tags drive tailored, engaging course recommendations."
+   },
+   {
+    "name": "Course Detail",
+    "img": "assets/edusphere/05.png",
+    "desc": "Duration, assignments, and downloadable content at a glance. A concise description and reviews build trust; a fixed bottom bar shows price and Add to Cart."
+   }
+  ],
+  "gallery": [
+   "assets/edusphere/01.png",
+   "assets/edusphere/02.png",
+   "assets/edusphere/03.png",
+   "assets/edusphere/04.png",
+   "assets/edusphere/05.png",
+   "assets/edusphere/06.png"
+  ],
+  "learning": "Usability testing before hand-off caught two flow-breaking assumptions that would have been expensive to fix in code."
+ },
+ {
+  "t": "Aidopolis",
+  "cat": "Healthcare Booking",
+  "year": "2021 - 2022",
+  "cover": "assets/covers/aidopolis.jpg",
+  "format": "mobile",
+  "tagline": "Booking the right doctor in a few clear taps.",
+  "role": "Product Designer",
+  "platform": "iOS, Android & Web",
+  "tools": [
+   "FigJam",
+   "Miro",
+   "Figma"
+  ],
+  "responsibilities": [
+   "Research",
+   "Branding",
+   "Wireframing",
+   "UX/UI Design",
+   "Prototyping",
+   "iOS",
+   "Android",
+   "Web",
+  ],
+  "tags": [
+   "Research",
+   "Branding",
+   "Wireframing",
+   "UX/UI Design",
+   "Prototyping",
+   "iOS",
+   "Android",
+   "Web",
+  ],
+  "overview": "Aidopolis is a platform that lets users easily book appointments with doctors and clinics while accessing online consultation services. It improves patient–doctor communication, provides transparent information, and simplifies access to healthcare.",
+  "challenge": "Users face time loss, difficulty finding the right doctor, and complex appointment processes when accessing healthcare — which keeps them from fast, reliable medical care.",
+  "quote": "When the decision is your health, every unclear step costs trust.",
+  "goals": [
+   "Reduce appointment booking time by 40%",
+   "Provide reliable information on doctor profiles",
+   "Shorten payment & confirmation to under 3 clicks",
+   "Ensure smooth online video consultations"
+  ],
+  "audience": {
+   "primary": "Individuals aged 18–45 with busy lifestyles seeking quick healthcare access.",
+   "secondary": "Chronic patients needing regular check-ups, and people booking for family members."
+  },
+  "research": {
+   "method": "Surveys, 12 in-depth interviews, competitor testing · ages 18–55",
+   "findings": [
+    "70% rely on reviews and ratings when choosing a doctor",
+    "Long booking flows cause 40% drop-offs",
+    "Strong need for flexible payment options",
+    "Post-pandemic, demand for online consultations is higher"
+   ]
+  },
+  "stats": [
+   {
+    "n": "70",
+    "s": "%",
+    "l": "rely on reviews & ratings"
+   },
+   {
+    "n": "40",
+    "s": "%",
+    "l": "drop-off on long flows"
+   },
+   {
+    "n": "12",
+    "s": "",
+    "l": "in-depth interviews"
+   }
+  ],
+  "competitors": {
+   "a": "Zocdoc",
+   "b": "Amwell",
+   "rows": [
+    [
+     "Doctor reviews & ratings",
+     "Strong review system",
+     "Limited or no public reviews",
+     "Integrated ratings & feedback"
+    ],
+    [
+     "Video consultation",
+     "Not a core feature",
+     "HIPAA-compliant video visits",
+     "Built-in video consultation"
+    ],
+    [
+     "Calendar & reminders",
+     "Email & phone reminders",
+     "Basic scheduling only",
+     "Seamless calendar integration"
+    ],
+    [
+     "Payment options",
+     "Limited (insurance/card)",
+     "Limited (insurance/card)",
+     "Flexible (clinic + card)"
+    ],
+    [
+     "User experience",
+     "Functional but crowded",
+     "Professional but traditional",
+     "Modern, simple, intuitive"
+    ]
+   ]
+  },
+  "painPoints": [
+   "Long, complicated appointment booking flow",
+   "Lack of trust in the doctor information shown",
+   "Limited payment options",
+   "Connectivity issues in online consultations"
+  ],
+  "persona": {
+   "name": "Nancy May",
+   "photo": "assets/personas/aidopolis-nancy-may.jpg",
+   "age": "34",
+   "job": "Marketing Manager",
+   "location": "London, UK",
+   "bio": "Nancy is a busy professional who spends most of her day in meetings and managing projects. She often postpones minor health issues until they become serious. After the pandemic she discovered online healthcare and now prefers digital solutions that save time.",
+   "personality": [
+    "Values time management",
+    "Tech-savvy, mobile-first",
+    "Relies on data and reviews",
+    "Prefers practical, simple solutions"
+   ],
+   "goals": [
+    "Reach the right doctor as quickly as possible",
+    "Balance health appointments with a work schedule",
+    "Access trustworthy information and manage history in one place"
+   ],
+   "pains": [
+    "Long and complicated booking flows",
+    "Lack of detailed doctor information",
+    "Limited payment flexibility",
+    "Technical issues during online consultations"
+   ],
+   "motivations": [
+    "Save time",
+    "Transparency and trust",
+    "Access healthcare anytime, anywhere"
+   ]
+  },
+  "keyScreens": [
+   {
+    "name": "Home",
+    "img": "assets/aidopolis/02.png",
+    "desc": "Services are organised as cards. Location-based areas like Doctors Nearby and Clinics Nearby give quick access and reduce indecision."
+   },
+   {
+    "name": "Doctor's Detail",
+    "img": "assets/aidopolis/04.png",
+    "desc": "A large doctor image, detailed info, and an About section build confidence. A fixed, prominent CTA at the bottom speeds up the booking action."
+   },
+   {
+    "name": "Appointment Date & Time",
+    "img": "assets/aidopolis/05.png",
+    "desc": "A calendar view shows the doctor's availability and makes picking a slot easy."
+   }
+  ],
+  "gallery": [
+   "assets/aidopolis/01.png",
+   "assets/aidopolis/02.png",
+   "assets/aidopolis/03.png",
+   "assets/aidopolis/04.png",
+   "assets/aidopolis/05.png",
+   "assets/aidopolis/06.png",
+   "assets/aidopolis/07.png",
+   "assets/aidopolis/08.png",
+   "assets/aidopolis/09.png",
+   "assets/aidopolis/10.png"
+  ],
+  "learning": "Leading with doctor credibility and a short, clear booking path did more for trust than any visual polish — confidence is built one step at a time."
+ },
+ {
+  "t": "Turkeyana Redesign",
+  "cat": "Clinic Website",
+  "year": "2021",
+  "cover": "assets/covers/turkeyana.jpg",
+  "format": "web",
+  "tagline": "A full redesign to earn the trust of an international audience.",
+  "role": "UI/UX Designer",
+  "platform": "Responsive Web",
+  "tools": [
+   "Figma",
+   "Zeplin",
+   "Adobe XD"
+  ],
+  "responsibilities": [
+   "Research",
+   "Wireframing",
+   "UX/UI Design",
+   "Prototyping",
+   "Responsive Web",
+  ],
+  "tags": [
+   "Research",
+   "Wireframing",
+   "UX/UI Design",
+   "Prototyping",
+   "Responsive Web",
+  ],
+  "overview": "Turkeyana Clinic serves patients from around the world. Its site looked dated and didn't turn international visitors into booked consultations.",
+  "challenge": "The old site undersold the clinic's quality and made the consultation request hard to find, especially for non-Turkish-speaking visitors.",
+  "quote": "For a medical decision made from another country, trust is the entire interface.",
+  "goals": [
+   "Modernize the visual identity",
+   "Clarify the consultation funnel",
+   "Build a responsive, multilingual-ready system"
+  ],
+  "insights": [
+   "Visitors wants detailed procedure information.",
+   "Visitors need a brief, actionable consultation to help them decide.",
+   "Mobile was the primary device for first contact."
+  ],
+  "gallery": [
+   "assets/turkeyana/01.png",
+   "assets/turkeyana/02.png",
+   "assets/turkeyana/03.png",
+   "assets/turkeyana/05.png",
+   "assets/turkeyana/04.png"
+  ],
+  "learning": "Leading with credibility — real results, clear process, modern visuals — moved the needle far more than aggressive calls to action."
+ },
+ {
+  "t": "CineGate",
+  "cat": "Cinema Booking Platform",
+  "year": "2023",
+  "cover": "assets/covers/cinegate.jpg",
+  "format": "web",
+  "tagline": "From poster to seat in seconds.",
+  "role": "Product Designer",
+  "platform": "Responsive Web",
+  "tools": [
+   "FigJam",
+   "Miro",
+   "Figma"
+  ],
+  "responsibilities": [
+   "Research",
+   "Wireframing",
+   "UI Design",
+   "Prototyping",
+   "Web"
+  ],
+  "tags": [
+   "Research",
+   "Wireframing",
+   "UI Design",
+   "Prototyping",
+   "Web"
+  ],
+  "overview": "CineGate is a cinema booking platform where users explore movies in theatres, discover upcoming releases, and buy tickets seamlessly. With integrated seat selection and a secure checkout flow, it makes the cinema experience smooth and enjoyable.",
+  "challenge": "Traditional cinema sites overwhelm users with cluttered layouts, long forms, and confusing navigation — leading to frustration and abandoned ticket purchases.",
+  "quote": "The closer a user is to paying, the less you can afford to make them think.",
+  "goals": [
+   "Provide clear discovery with In Theatres and Coming Soon",
+   "Enable quick and intuitive seat selection",
+   "Ensure a secure, frictionless checkout",
+   "Offer a modern, engaging experience with strong visuals"
+  ],
+  "audience": {
+   "primary": "Moviegoers aged 16–45 who frequently book tickets online.",
+   "secondary": "Families and groups who want easy seat selection and secure payments."
+  },
+  "painPoints": [
+   "Overly complex booking flows in existing apps",
+   "Hard to find upcoming movies or local schedules",
+   "Seat availability and pricing lack transparency",
+   "Unclear purchase confirmation and ticket retrieval"
+  ],
+  "keyScreens": [
+   {
+    "name": "Home",
+    "img": "assets/cinegate/01.png",
+    "desc": "Featured movies with In Theatres and Coming Soon carousels for a cinematic discovery experience."
+   },
+   {
+    "name": "Seat Selection & Payment",
+    "img": "assets/cinegate/04.png",
+    "desc": "An interactive seat map shows availability and updates price instantly. A streamlined payment form and reassuring confirmation complete the flow."
+   }
+  ],
+  "gallery": [
+   "assets/cinegate/01.png",
+   "assets/cinegate/02.png",
+   "assets/cinegate/03.png",
+   "assets/cinegate/04.png",
+   "assets/cinegate/05.png",
+   "assets/cinegate/06.png"
+  ],
+  "learning": "Prototyping the seat-map and checkout interactions early let us feel the friction before building, so motion became a wayfinding tool rather than a finishing touch."
+ }
+];
+
+/* shared UX process — same methodology across projects */
+const PROCESS=[
+  {k:"01",t:"Discover",d:"Stakeholder interviews, user research, and an audit of the current experience to understand the real problem."},
+  {k:"02",t:"Define",d:"Synthesizing findings into clear problems, user goals, flows, and the information architecture."},
+  {k:"03",t:"Design",d:"Wireframes to high-fidelity UI, built on a component system and refined through iteration."},
+  {k:"04",t:"Deliver",d:"Prototyping, usability testing, and a documented hand-off engineering can build from confidently."}
+];
+
+const grid=document.getElementById('workGrid');
+const icSvg='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 15l5-5 4 4 3-3 6 6"/><circle cx="8.5" cy="8.5" r="1.5"/></svg>';
+
+projects.forEach((p,i)=>{
+  const idx=String(i+1).padStart(2,'0');
+  const tags=p.tags.map(t=>`<span class="t">${t}</span>`).join('');
+  const el=document.createElement('article');
+  el.className='card reveal';el.tabIndex=0;el.setAttribute('role','button');
+  el.dataset.i=i;el.dataset.d=String((i%2)+1);
+  const cover=p.cover
+    ? `<img class="cover" src="${p.cover}" alt="${p.t} cover">`
+    : `<span class="ph-ic">${icSvg}<span>placeholder · ${p.t.toLowerCase().replace(/ /g,'-')}</span></span>`;
+  el.innerHTML=`
+    <div class="ph">
+      
+      <span class="arrow"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M9 7h8v8"/></svg></span>
+      ${cover}
+    </div>
+    <div class="card-body">
+      <h3>${p.t}</h3>
+      <div class="cat">${p.cat}</div>
+      <div class="card-tags">${tags}</div>
+    </div>`;
+  el.addEventListener('click',()=>openDetail(i));
+  el.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();openDetail(i)}});
+  grid.appendChild(el);
+});
+
+/* ---------------- project detail ---------------- */
+const detail=document.getElementById('detail');
+const dtBody=document.getElementById('dtBody');
+const phIc='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 15l5-5 4 4 3-3 6 6"/><circle cx="8.5" cy="8.5" r="1.5"/></svg>';
+const goArrow='<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14m-6-6l6 6-6 6"/></svg>';
+const slug=s=>s.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/(^-|-$)/g,'');
+
+function openDetail(i){
+  const p=projects[i];
+  const next=projects[(i+1)%projects.length];
+  document.getElementById('dtTopName').innerHTML='<b>'+p.t+'</b> &nbsp;·&nbsp; Case study';
+  const esc=t=>String(t);
+
+  const toolList=p.tools||p.tags||[];
+  const tools=toolList.map(t=>`<span class="pill"><span class="dot"></span>${t}</span>`).join('');
+  const resp=(p.responsibilities||[]).map(t=>`<span class="pill resp">${t}</span>`).join('');
+  const metaArr=[['Role',p.role],['Platform',p.platform],['Year',p.year],['Tools',toolList.join(', ')]].filter(m=>m[1]);
+  const meta=metaArr.map(m=>`<div class="m"><small>${m[0]}</small><span>${m[1]}</span></div>`).join('');
+  const goals=p.goals.map((g,n)=>`<div class="dt-goal"><div class="n">${n+1}</div><p>${g}</p></div>`).join('');
+  const process=PROCESS.map(s=>`<div class="dt-step"><div class="k">${s.k}</div><div class="bar"></div><h4>${s.t}</h4><p>${s.d}</p></div>`).join('');
+
+  // audience
+  let audHtml='';
+  if(p.audience){audHtml=`<div class="dt-section"><div class="lbl"><span class="pac"></span>Target audience</div><div class="dt-aud">
+    <div class="a"><small>Primary</small><p>${p.audience.primary}</p></div>
+    <div class="a"><small>Secondary</small><p>${p.audience.secondary}</p></div></div></div>`;}
+
+  // research + stats
+  let resHtml='';
+  if(p.research){
+    const finds=p.research.findings.map(x=>`<li>${x}</li>`).join('');
+    const stats=(p.stats||[]).map(r=>`<div class="dt-stat"><div class="num">${r.n}<span>${r.s}</span></div><div class="lab">${r.l}</div></div>`).join('');
+    resHtml=`<div class="dt-section"><div class="lbl"><span class="pac"></span>User research</div>
+      <p class="dt-method"><span>Method</span> ${p.research.method}</p>
+      ${stats?`<div class="dt-stats">${stats}</div>`:''}
+      <ul class="dt-find">${finds}</ul></div>`;
+  } else if(p.insights){
+    const ins=p.insights.map(x=>`<div class="dt-ins"><p>${x}</p></div>`).join('');
+    resHtml=`<div class="dt-section"><div class="lbl"><span class="pac"></span>Research &amp; insights</div><div class="dt-insights">${ins}</div></div>`;
+  }
+
+  // competitors
+  let cmpHtml='';
+  if(p.competitors){
+    const yn=v=> v==='yes'?'<span class="yn y">✓</span>': v==='no'?'<span class="yn n">✗</span>': v;
+    const rows=p.competitors.rows.map(r=>`<tr><td class="feat">${r[0]}</td><td data-label="${p.competitors.a}">${yn(r[1])}</td><td data-label="${p.competitors.b}">${yn(r[2])}</td><td class="self" data-label="${p.t}">${yn(r[3])}</td></tr>`).join('');
+    cmpHtml=`<div class="dt-section"><div class="lbl"><span class="pac"></span>Competitive analysis</div>
+      <div class="dt-cmp"><table><thead><tr><th></th><th>${p.competitors.a}</th><th>${p.competitors.b}</th><th class="self">${p.t}</th></tr></thead><tbody>${rows}</tbody></table></div></div>`;
+  }
+
+  // pain points
+  let painHtml='';
+  if(p.painPoints){
+    const items=p.painPoints.map(x=>`<div class="dt-pain"><span class="x">✕</span><p>${x}</p></div>`).join('');
+    painHtml=`<div class="dt-section"><div class="lbl"><span class="pac"></span>Pain points</div><div class="dt-pains">${items}</div></div>`;
+  }
+
+  // persona
+  let perHtml='';
+  if(p.persona){
+    const pe=p.persona;
+    const initials=pe.name.split(' ').map(w=>w[0]).join('').slice(0,2).toUpperCase();
+    const col=(t,arr)=>`<div class="pa-col"><h5>${t}</h5><ul>${arr.map(x=>`<li>${x}</li>`).join('')}</ul></div>`;
+    perHtml=`<div class="dt-section"><div class="lbl"><span class="pac"></span>User persona</div>
+      <div class="dt-persona">
+        <div class="pa-id">
+          <div class="pa-av">${pe.photo?`<img src="${pe.photo}" alt="${pe.name}">`:initials}</div>
+          <div class="pa-name">${pe.name}</div>
+          <div class="pa-rows"><span>Age</span><b>${pe.age}</b><span>Job</span><b>${pe.job}</b><span>Location</span><b>${pe.location}</b></div>
+        </div>
+        <div class="pa-body">
+          <p class="pa-bio">${pe.bio}</p>
+          <div class="pa-cols">${col('Personality',pe.personality)}${col('Goals',pe.goals)}${col('Pain points',pe.pains)}${col('Motivations',pe.motivations)}</div>
+        </div>
+      </div></div>`;
+  }
+
+  // key screens
+  let scrHtml='';
+  if(p.keyScreens){
+    const fmt=p.format||'mobile';
+    const rows=p.keyScreens.map((k,n)=>`<div class="dt-ks ${fmt} ${n%2?'rev':''}">
+        <div class="ks-img"><img src="${k.img}" alt="${p.t} – ${k.name}" loading="lazy"></div>
+        <div class="ks-txt"><span class="ks-n">Screen ${n+1}</span><h3>${k.name}</h3><p>${k.desc}</p></div></div>`).join('');
+    scrHtml=`<div class="dt-section"><div class="lbl"><span class="pac"></span>Key screens</div><div class="dt-keyscreens">${rows}</div></div>`;
+  } else if(p.screens){
+    const screens=p.screens.map(s=>`<div class="dt-shot"><span class="ph-ic">${phIc}<span>${s}</span></span></div>`).join('');
+    scrHtml=`<div class="dt-section"><div class="lbl"><span class="pac"></span>Solution</div><h2>Key screens</h2><div class="dt-screens">${screens}</div></div>`;
+  }
+
+  // gallery
+  let galHtml='';
+  if(p.gallery&&p.gallery.length){
+    const fmt=p.format||'mobile';
+    const items=p.gallery.map(src=>`<button class="dt-galitem ${fmt}" aria-label="View screen"><img src="${src}" alt="${p.t} screen" loading="lazy"></button>`).join('');
+    galHtml=`<div class="dt-section"><div class="lbl"><span class="pac"></span>All screens</div><p>${p.gallery.length} screens from the final design — tap any to enlarge.</p><div class="dt-gallery ${fmt}">${items}</div></div>`;
+  }
+
+  dtBody.innerHTML=`
+    <div class="dt-wrap">
+      <div class="dt-hero">
+        <span class="dt-eyebrow">${p.cat} · ${p.year}</span>
+        <h1>${p.t}</h1>
+        <p class="lead">${p.tagline}</p>
+        ${resp?`<div class="dt-tools resp-row">${resp}</div>`:''}
+        <div class="dt-meta">${meta}</div>
+      </div>
+
+      <div class="dt-cover">${p.cover?`<img src="${p.cover}" alt="${p.t} cover">`:`<span class="ph-ic">${phIc}<span>cover · ${slug(p.t)}</span></span>`}</div>
+
+      <div class="dt-section"><div class="lbl"><span class="pac"></span>Overview</div><p>${p.overview}</p></div>
+
+      <div class="dt-section">
+        <div class="lbl"><span class="pac"></span>The challenge</div>
+        <p>${p.challenge}</p>
+        <blockquote class="dt-quote">${p.quote}</blockquote>
+      </div>
+
+      <div class="dt-section"><div class="lbl"><span class="pac"></span>Goals</div><div class="dt-goals">${goals}</div></div>
+
+      ${audHtml}
+      ${resHtml}
+      ${cmpHtml}
+      ${painHtml}
+      ${perHtml}
+
+      <div class="dt-section"><div class="lbl"><span class="pac"></span>Process</div><div class="dt-process">${process}</div></div>
+
+      ${scrHtml}
+      ${galHtml}
+
+      <div class="dt-section"><div class="lbl"><span class="pac"></span>Reflection</div><p>${p.learning}</p></div>
+
+      <div class="dt-next" id="dtNext">
+        <div><small>Next project</small><h3>${next.t}</h3></div>
+        <div class="go">${goArrow}</div>
+      </div>
+    </div>`;
+
+  document.getElementById('dtNext').addEventListener('click',()=>openDetail((i+1)%projects.length));
+  dtBody.querySelectorAll('.dt-galitem,.ks-img img').forEach(el=>{
+    el.addEventListener('click',()=>{
+      const src=el.tagName==='IMG'?el.src:el.querySelector('img').src;
+      const lb=document.getElementById('lightbox');
+      if(!lb) return;
+      document.getElementById('lbStage').innerHTML='<img src="'+src+'" alt="screen">';
+      lb.classList.add('open');lb.setAttribute('aria-hidden','false');document.body.style.overflow='hidden';
+    });
+  });
+  detail.classList.add('open');detail.setAttribute('aria-hidden','false');
+  document.body.style.overflow='hidden';
+  detail.scrollTop=0;
+}
+function closeDetail(){detail.classList.remove('open');detail.setAttribute('aria-hidden','true');document.body.style.overflow=''}
+document.getElementById('dtBack').addEventListener('click',closeDetail);
+document.addEventListener('keydown',e=>{if(e.key==='Escape'&&detail.classList.contains('open'))closeDetail()});
+
+/* ---------------- scroll header ---------------- */
+const head=document.getElementById('head');
+addEventListener('scroll',()=>head.classList.toggle('scrolled',scrollY>20));
+
+/* ---------------- mobile menu ---------------- */
+const navLinks=document.getElementById('navLinks');
+document.getElementById('menuBtn').addEventListener('click',()=>navLinks.classList.toggle('show'));
+navLinks.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>navLinks.classList.remove('show')));
+
+/* ---------------- reveal on scroll ---------------- */
+const io=new IntersectionObserver((entries)=>{
+  entries.forEach(en=>{if(en.isIntersecting){en.target.classList.add('in');io.unobserve(en.target)}});
+},{threshold:.14});
+document.querySelectorAll('.reveal:not(.in)').forEach(el=>io.observe(el));
+
+/* ---- lightbox (gallery enlarge) ---- */
+const lightbox=document.getElementById('lightbox');
+function closeLightbox(){lightbox.classList.remove('open');lightbox.setAttribute('aria-hidden','true');document.body.style.overflow=''}
+document.getElementById('lbClose').addEventListener('click',closeLightbox);
+document.getElementById('lbBg').addEventListener('click',closeLightbox);
+document.addEventListener('keydown',e=>{if(e.key==='Escape')closeLightbox()});
+</script>
+
+</body>
+</html>
